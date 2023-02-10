@@ -400,9 +400,6 @@ img {
   margin: 0px 15px;
 }
 
-.about_graphics > * {
-}
-
 .about_graphics > img:first-child {
   width: 180px;
   height: 180px;
@@ -439,4 +436,58 @@ img {
 .linkedin_logo {
   width: 20px;
   height: 20px;
+}
+
+/* FOOTER */
+
+.footer_cta {
+  min-height: 10vh;
+  display: grid;
+  width: 100%;
+  place-items: center;
+  gap: 16px;
+  background-color: #9693e6;
+  padding: 64px 0px;
+  color: white;
+}
+
+.footer_cta > * {
+  text-align: center;
+  width: 90%;
+}
+
+.footer_nav {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 12px;
+}
+
+.cta_btn {
+  background-color: white;
+  width: 180px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #9693e6;
+}
+
+.footer_nav > * {
+  color: white;
+}
+
+.footer_cta > h4 {
+  color: rgb(233, 232, 232);
+  letter-spacing: 2px;
+}
+
+.footer_cta > h3 {
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+.footer_cta > h2 {
+  font-size: 3rem;
+  color: #ffc166;
+  font-weight: 700;
 }
