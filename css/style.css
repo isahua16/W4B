@@ -53,7 +53,6 @@ body {
 .section_services {
   margin-top: 64px;
   width: 100%;
-  height: 100%;
   display: grid;
   place-items: center;
   gap: 32px;
@@ -78,23 +77,6 @@ body {
 
 .purple_bg {
   background-color: #d5d4f5;
-}
-
-.services_large {
-  width: 90%;
-  height: 100%;
-  border-radius: 30px;
-  display: grid;
-  place-items: center;
-}
-
-.services_large_content {
-  height: 100%;
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 20px;
-  gap: 32px;
 }
 
 .demo_title {
@@ -143,13 +125,13 @@ body {
 }
 
 .services_small_content {
-  width: 90%;
+  width: 70%;
   height: 100%;
   display: grid;
   place-items: center;
   gap: 16px;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 .services_img {
@@ -187,3 +169,77 @@ body {
 .branding_paragraph {
   color: #6663b7;
 }
+
+/* METHODS */
+
+.section_method {
+  width: 100%;
+  background-color: #9693e6;
+  display: grid;
+  place-items: center;
+  gap: 32px;
+}
+
+.method_planning {
+  width: 90%;
+  display: grid;
+  place-items: center;
+  gap: 32px;
+}
+
+.planning_img {
+  width: 100%;
+}
+
+.planning_text {
+  display: grid;
+  gap: 16px;
+  color: white;
+}
+
+.planning_title {
+  font-size: 2rem;
+}
+
+.planning_paragraph {
+  font-size: 0.7rem;
+  line-height: 18px;
+}
+
+.method_dev {
+  width: 95%;
+  background-color: white;
+  padding: 20px 0;
+  border-radius: 30px;
+  display: grid;
+  place-items: center;
+}
+
+.dev_paragraph {
+  font-style: italic;
+  text-align: center;
+}
+
+.dev_wrapper {
+  width: 70%;
+  display: grid;
+  place-items: center;
+  gap: 16px;
+}
+
+.dev_img {
+  width: 100%;
+}
+
+.arrow_container {
+  background-color: #9693e6;
+  display: grid;
+  border-radius: 100%;
+}
+
+.arrow_img {
+  width: 30px;
+  height: 30px;
+}
+
+/* TESTIMONIALS */
