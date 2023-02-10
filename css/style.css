@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+/* HEADER */
+.main_header {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  color: white;
+  background-color: #0084ff;
+  min-height: 10vh;
+}
+
+.header_wrapper {
+  display: grid;
+  width: 90%;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header_logo {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  justify-self: start;
+}
+
+.header_icon {
+  width: 25px;
+  height: 25px;
+  justify-self: end;
+}
+
+/* SERVICES */
+
+.main_main {
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+}
+
+.section_services {
+  margin-top: 64px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.blue_bg {
+  background-color: #b8ddff;
+}
+
+.red_bg {
+  background-color: #ffd2d2;
+}
+
+.green_bg {
+  background-color: #caf0db;
+}
+
+.yellow_bg {
+  background-color: #ffe7c4;
+}
+
+.purple_bg {
+  background-color: #d5d4f5;
+}
+
+.services_large {
+  width: 90%;
+  height: 100%;
+  border-radius: 30px;
+  display: grid;
+  place-items: center;
+}
+
+.services_large_content {
+  height: 100%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  gap: 32px;
+}
+
+.demo_title {
+  color: #0084ff;
+}
+
+.demo_paragraph {
+  color: #014c93;
+}
+
+.apple_logo {
+  width: 20px;
+  height: 20px;
+}
+
+.services_phone_img {
+  width: 200px;
+}
+
+.appstore_btn {
+  width: 180px;
+  display: grid;
+  background-color: #0084ff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  gap: 10px;
+}
+
+.appstore_btn > a {
+  text-decoration: none;
+  color: white;
+}
+
+.appstore_btn_content {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 4fr;
+}
+
+.services_small {
+  width: 90%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+}
+
+.services_small_content {
+  width: 90%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  gap: 16px;
+  text-align: center;
+  padding: 20px;
+}
+
+.services_img {
+  width: 100px;
+}
+
+.code_title {
+  color: #45a26f;
+}
+
+.code_paragraph {
+  color: #347f56;
+}
+
+.web_title {
+  color: #ff8a8a;
+}
+
+.web_paragraph {
+  color: #c16b6b;
+}
+
+.development_title {
+  color: #ffc166;
+}
+
+.development_paragraph {
+  color: #aa8651;
+}
+
+.branding_title {
+  color: #9693e6;
+}
+
+.branding_paragraph {
+  color: #6663b7;
+}
