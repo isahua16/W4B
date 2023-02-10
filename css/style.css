@@ -366,3 +366,77 @@ img {
 }
 
 /* ABOUT */
+
+.section_about {
+  margin-top: 64px;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  margin-bottom: 64px;
+  gap: 16px;
+}
+
+.about_bio {
+  display: grid;
+  place-items: center;
+  gap: 16px;
+  line-height: 26px;
+}
+
+.about_bio > * {
+  width: 90%;
+}
+
+.about_bio > h1 {
+  font-size: 1.8rem;
+  color: #6663b7;
+  letter-spacing: 1.6px;
+}
+
+.about_graphics {
+  display: grid;
+  position: relative;
+  gap: 16px;
+  margin: 0px 15px;
+}
+
+.about_graphics > * {
+}
+
+.about_graphics > img:first-child {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.u-svg-content {
+  fill: #6663b7;
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  width: 50px;
+}
+
+.about_graphics > h3 {
+  color: #9693e6;
+}
+
+.linkedin_btn {
+  background-color: #6663b7;
+  width: 220px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.linkedin_btn_content {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  place-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin_logo {
+  width: 20px;
+  height: 20px;
+}
