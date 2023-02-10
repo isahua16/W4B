@@ -289,5 +289,14 @@ body {
 }
 
 .quote_paragraph {
-  width: 80%;
+  width: 88%;
+}
+
+.quote_paragraph > p {
+  display: inline;
+}
+
+.client_name {
+  font-size: 1.1rem;
+  letter-spacing: 1.2px;
 }
