@@ -253,6 +253,7 @@ body {
   place-items: center;
   text-align: center;
   gap: 24px;
+  margin-bottom: 64px;
 }
 
 .testimonials_title {
@@ -263,9 +264,6 @@ body {
 .testimonials_moto {
   font-size: 1.8rem;
   color: #9693e6;
-}
-
-.testimonials_desc {
 }
 
 .testimonials_quote {
@@ -299,4 +297,50 @@ body {
 .client_name {
   font-size: 1.1rem;
   letter-spacing: 1.2px;
+}
+
+/* BENEFITS */
+
+.section_benefits {
+  padding: 32px 0px;
+  background-color: #6663b7;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  gap: 16px;
+}
+
+.section_benefits > h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.benefits_card {
+  display: grid;
+  place-items: center;
+  padding: 20px 0px;
+  width: 90%;
+  background-color: white;
+  border-radius: 30px;
+  gap: 16px;
+}
+
+.benefits_card > * {
+  width: 80%;
+}
+
+.benefits_card > h3 {
+  color: #9693e6;
+}
+
+.benefits_card > a {
+  text-decoration: none;
+  background-color: #9693e6;
+  color: white;
+  width: 100px;
+  display: grid;
+  place-items: center;
+  padding: 10px 20px;
+  border-radius: 30px;
 }
