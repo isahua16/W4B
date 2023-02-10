@@ -22,7 +22,7 @@ img {
   width: 100%;
   color: white;
   background-color: #0084ff;
-  min-height: 10vh;
+  min-height: 20vh;
 }
 
 .header_wrapper {
@@ -458,6 +458,7 @@ img {
 
 .footer_nav {
   display: grid;
+  width: 300px;
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: 12px;
