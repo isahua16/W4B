@@ -46,14 +46,14 @@ img {
   justify-self: end;
 }
 
-/* SERVICES */
-
 .main_main {
   width: 100%;
   min-height: 80vh;
   display: grid;
   place-items: center;
 }
+
+/* SERVICES */
 
 .section_services {
   margin-top: 64px;
@@ -134,9 +134,8 @@ img {
   width: 80%;
   height: 100%;
   display: grid;
-  place-items: center;
+  align-items: center;
   gap: 16px;
-  text-align: center;
   padding: 20px 0px;
 }
 
@@ -254,6 +253,7 @@ img {
 .section_testimonials {
   margin-top: 64px;
   width: 80%;
+  max-width: 700px;
   display: grid;
   place-items: center;
   text-align: center;
@@ -522,3 +522,17 @@ img {
 }
 
 /* DESKTOP */
+
+@media only screen and (min-width: 1010px) {
+  .demo--cell {
+    justify-items: left;
+  }
+
+  .ser--1 {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .services_phone_img {
+    width: 280px;
+  }
+}
