@@ -28,6 +28,7 @@ img {
 .header_wrapper {
   display: grid;
   width: 90%;
+  max-width: 1440px;
   align-items: center;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
@@ -138,6 +139,7 @@ img {
   place-items: center;
   gap: 16px;
   padding: 20px 0px;
+  text-align: center;
 }
 
 .services_img {
@@ -539,6 +541,7 @@ img {
 
   .demo--cell {
     justify-items: left;
+    text-align: left;
   }
 
   .ser--1 {
